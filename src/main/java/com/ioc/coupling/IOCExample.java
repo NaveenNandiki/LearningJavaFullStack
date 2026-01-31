@@ -20,7 +20,7 @@ public class IOCExample {
 //            UserManager userManagerWithWS = new UserManager(webServiceProvider);
             UserManager userManagerWithWS =
                     (UserManager) context.getBean("userManagerWithNewDataProvider");
-                    System.out.println(userManagerWithWS.getUserInfo());
+            System.out.println(userManagerWithWS.getUserInfo());
 
 //            UserDataProvider MongoDBProvider = new NewDatabseProvider();
 //            UserManager userManagerWithMongoDB = new UserManager(MongoDBProvider);
