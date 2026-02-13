@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Manager {
 
     @Autowired
-    @Qualifier("employee") //Qualifiers is normally used if you have multiple Beans regiter with same type but different name
+    @Qualifier("employe") //Qualifiers is normally used if you have multiple Beans regiter with same type but different name
     private Employee employee;
 
 //    @Autowired
